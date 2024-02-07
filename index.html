@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Steven Universo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div id="logo">
+      <img class="logo" src="./src/imagens/logo.png" alt="Logo x-men">
+    </div>
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="steven" data-name = "Steven">
+            <img src="./src/imagens/card-steven.jpeg" alt="Personagem Steven" />
+          </li>
+          <li class="personagem" id="connie" data-name = "Connie">
+            <img src="./src/imagens/card-connie.jpg" alt="Personagem Connie" />
+          </li>
+
+          <li class="personagem" id="garnet" data-name = "Garnet">
+            <img src="./src/imagens/card-garnet.jpeg" alt="Personagem Garnet" />
+          </li>
+
+          <li class="personagem" id="perola" data-name = "Perola">
+            <img src="./src/imagens/card-perola.jpeg" alt="Personagem Perola" />
+          </li>
+
+          <li class="personagem" id="ametista" data-name = "Ametista">
+            <img src="./src/imagens/card-ametista.jpeg" alt="Personagem Ametista" />
+          </li>
+
+          <li class="personagem" id="peridot" data-name = "Peridot">
+            <img src="./src/imagens/card-peridot.jpeg" alt="Personagem Peridot" />
+          </li>
+
+          <li class="personagem" id="lapis" data-name = "Lapis">
+            <img src="./src/imagens/card-lapis.jpeg" alt="Personagem Lapis" />
+          </li>
+
+          <li class="personagem" id="bismuto" data-name = "Bismuto"
+          data-description="">
+            <img src="./src/imagens/card-bismuto.jpeg" alt="Personagem Bismuto" />
+          </li>
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+      <img class="personagem-grande" src="./src/imagens/card-escolhido-steven.webp" alt="Personagem Selecionado" />
+      <div class="informacoes-personagem">
+        <h2 class="nome-personagem" id="nome-personagem">Steven</h2>
+        <p class="descricao-personagem" id="descricao-personagem">
+           x
+        </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
